@@ -1,0 +1,32 @@
+
+
+
+body {
+  padding: 100px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.message-container {
+  width: 80%;
+  margin: 30px auto;
+  display: none;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.message-container.info {
+  border: 1px solid #101764;
+}
+
+.message-container.error {
+  border: 1px solid #6a0909;
+}
+
+.message-container.success {
+  border: 1px solid #054615;
+}
